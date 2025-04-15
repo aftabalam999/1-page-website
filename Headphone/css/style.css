@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+:root{
+    --main-color: #e0e6ec;
+    --secondary-color: #07beb8;
+    --main-font: "Poppins", sans-serif;
+    --secondary-font:"Montserrat", sans-serif;
+    --box-shadow: 10px 10px 20px #a3b1c6;
+    --shadow-inset: 10px 10px 20px #a3b1c6, inset -10px -10px 20px #fff;
+    --bold: 700;
+    --semi-bold: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+}
+body{
+    background-color: var(--main-color);
+}
+
+
+/****
+    Navbar
+****/
+.main-nav{
+    background-color: var(--secondary-color);
+}
+.navbar-brand{
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: var(--bold);
+    color: #fff;
+}
+.navbar-brand span{
+    color: rgb(242, 23, 23);
+    font-weight: 850;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: var(--semi-bold);
+}
+.nav-item:hover{
+    background-color: var(--main-color);
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    border-radius: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.active{
+    background-color: var(--main-color);
+    border-radius: 1rem;
+}
+.search-input{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/******
+     Hero Section
+******/
+.hero-main-content{
+    margin-top: 120px;
+}
+.tag h1{
+    font-size: 3rem;
+    font-weight: var(--bold);
+    color: var(--secondary-color);
+}
+.btns .btn{
+    border: 2px solid var(--secondary-color) !important;
+    font-weight: var(--semi-bold);
+    font-size: 1.2rem;
+    background-color: var(--secondary-color) !important;
+    color: #fff;
+}
+.btns .btn2{
+    background-color: var(--main-color) !important;
+    color: var(--secondary-color);
+}
+.hero-img{
+    margin-top: 120px;
+    height: 400px;
+}
+.hero-img  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow: var(--shadow-inset);
+}
+
+.hero-img  img:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    transform: skew(30deg,);
+}
