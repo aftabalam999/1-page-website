@@ -6,3 +6,9 @@ navLinks.forEach(link => {
     });
     
 });
+
+let cartBtn = document.querySelector('.cart-btn');
+cartCount = document.querySelector('.badge');
+cartBtn.addEventListener('click', function () {
+    cartCount.innerHTML = parseInt(cartCount.innerHTML) + 1;
+});

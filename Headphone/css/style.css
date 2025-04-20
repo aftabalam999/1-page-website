@@ -2,7 +2,7 @@
 
 :root{
     --main-color: #e0e6ec;
-    --secondary-color: #07beb8;
+    --secondary-color: #FFA09B;
     --main-font: "Poppins", sans-serif;
     --secondary-font:"Montserrat", sans-serif;
     --box-shadow: 10px 10px 20px #a3b1c6;
@@ -28,6 +28,9 @@ body{
 .main-nav{
     background-color: var(--secondary-color);
 }
+.offcanvas{
+    background-color: var(--secondary-color);
+}
 .navbar-brand{
     font-family: var(--secondary-font);
     font-size: 2rem;
@@ -35,7 +38,7 @@ body{
     color: #fff;
 }
 .navbar-brand span{
-    color: rgb(242, 23, 23);
+    color: red;
     font-weight: 850;
 }
 .nav-link{
@@ -53,6 +56,11 @@ body{
     background-color: var(--main-color);
     border-radius: 1rem;
 }
+.badge{
+    width: 27px;
+}
+
+
 .search-input{
     box-shadow: none !important;
     border: none !important;
@@ -67,7 +75,7 @@ body{
 .tag h1{
     font-size: 3rem;
     font-weight: var(--bold);
-    color: var(--secondary-color);
+    color: rgba(255, 0, 0, 0.7);
 }
 .btns .btn{
     border: 2px solid var(--secondary-color) !important;
@@ -80,13 +88,26 @@ body{
     background-color: var(--main-color) !important;
     color: var(--secondary-color);
 }
+.btns .btn:hover{
+    background-color: var(--main-color) !important;
+    color: var(--secondary-color);
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+.btns .btn2:hover{
+    background-color: var(--secondary-color) !important;
+    color: #fff;
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
 .hero-img{
-    margin-top: 120px;
-    height: 400px;
+    margin-top: 110px;
+    height: 425px;
 }
 .hero-img  img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 1rem;
     box-shadow: var(--shadow-inset);
