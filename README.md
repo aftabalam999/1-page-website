@@ -15,7 +15,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 1. [Adhar Card Generator](adhar-card/)
+### 1. [Adhar Card Generator]
 - **Description**: A fully responsive website that generates an Adhar card layout by taking basic information like name, father's name, DOB, and Adhar number.
 - **Technologies Used**: HTML5, CSS3, JavaScript
 - **Features**:
@@ -26,7 +26,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 2. [Headphone Showcase](headphone/)
+### 2. [Headphone Showcase]
 - **Description**: A sleek, modern one-page website for a headphone product. Great for marketing or product presentation.
 - **Technologies Used**: HTML5, CSS3 (Flexbox & Grid), Vanilla JS
 - **Features**:
@@ -36,7 +36,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 3. [Portfolio Website](portfolio/)
+### 3. [Portfolio Website]
 - **Description**: A personal portfolio website with a hero section, about, skills, projects, and contact section. Designed with creativity and simplicity.
 - **Technologies Used**: HTML5, CSS3 (Animations), JavaScript
 - **Features**:
