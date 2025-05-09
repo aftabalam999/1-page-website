@@ -58,13 +58,13 @@ Here are the amazing single-page websites included in this repository:
   cd 1-page-website/projects/adhar-card
   ```
 
-📄 License
+📄 License <br>
 This project is licensed under the MIT License – see the LICENSE file for details.
 
-👤 Author
+👤 Author<br>
 👤 jasiiin999
 
-GitHub: @jasiiin999
+GitHub: @jasiiin999 <br>
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page or submit a PR.
@@ -72,7 +72,7 @@ Feel free to check the issues page or submit a PR.
 📁 Folder Structure Example
 ```
 1-page-website/
-├── adhar-card/
+|   ├── adhar-card/
 │   │   ├── index.html
 │   │   ├── css/
 │   │   └── js/
