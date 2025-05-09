@@ -1,7 +1,7 @@
 # 1-Page Website Showcase 🌐
 
 ![License](https://img.shields.io/badge/license-MIT-blue )
-![Language](https://img.shields.io/badge/language-HTML5%20%7C%20CSS3%20%7C%20JavaScript-brightgreen )
+![Language](https://img.shields.io/badge/language-HTML5%20%7C%20CSS3%20%7C%20JavaScript-orange )
 ![GitHub Stars](https://img.shields.io/github/stars/jasiiin999/1-page-website?style=social )
 
 A collection of minimalist, responsive one-page websites built using HTML, CSS, and JavaScript.  
@@ -15,7 +15,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 1. [Adhar Card Generator](projects/adhar-card/)
+### 1. [Adhar Card Generator](adhar-card/)
 - **Description**: A fully responsive website that generates an Adhar card layout by taking basic information like name, father's name, DOB, and Adhar number.
 - **Technologies Used**: HTML5, CSS3, JavaScript
 - **Features**:
@@ -26,7 +26,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 2. [Headphone Showcase](projects/headphone/)
+### 2. [Headphone Showcase](headphone/)
 - **Description**: A sleek, modern one-page website for a headphone product. Great for marketing or product presentation.
 - **Technologies Used**: HTML5, CSS3 (Flexbox & Grid), Vanilla JS
 - **Features**:
@@ -36,7 +36,7 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
-### 3. [Portfolio Website](projects/portfolio/)
+### 3. [Portfolio Website](portfolio/)
 - **Description**: A personal portfolio website with a hero section, about, skills, projects, and contact section. Designed with creativity and simplicity.
 - **Technologies Used**: HTML5, CSS3 (Animations), JavaScript
 - **Features**:
