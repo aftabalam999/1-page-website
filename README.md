@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue )
 ![Language](https://img.shields.io/badge/language-HTML5%20%7C%20CSS3%20%7C%20JavaScript-orange )
-![GitHub Stars](https://img.shields.io/github/stars/jasiiin999/1-page-website?style=social )
+![GitHub Stars](https://img.shields.io/github/stars/aftabalam999/1-page-website?style=social )
 
 A collection of minimalist, responsive one-page websites built using HTML, CSS, and JavaScript.  
 Each project is unique, mobile-friendly, and easy to customize.
@@ -80,9 +80,9 @@ Here are the amazing single-page websites included in this repository:
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 👤 Author<br>
-👤 jasiiin999
+👤 Aftab Alam
 
-GitHub: @jasiiin999 <br>
+GitHub: @aftabalam999 <br>
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page or submit a PR.
