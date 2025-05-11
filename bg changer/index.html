@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Changer</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #212121;
+        }
+        #colorInput{
+            width: 300px;
+            height: 40px;
+            outline: none;
+            border: none;
+            border-radius: 1rem;
+            font-size: 1.3rem;
+            padding: 0.7rem 1.5rem;
+            border: 2px solid #ccc;
+        }
+        #submitBtn{
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+            border: none;
+            margin-top: 1rem;
+            width: 200px;
+            font-size: 1.5rem;
+            padding: 15px 25px;
+            border-radius: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+<form>
+    <input type="text" placeholder="Enter Color Name" id="colorInput">
+    <input type="submit" value="Generate Color" id="submitBtn">
+</form>
+
+    <script>
+        
+        const input = document.querySelector('#colorInput');
+        const body = document.querySelector('body');
+        const submitBtn = document.querySelector('#submitBtn');
+        submitBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            const color = input.value;
+            body.style.backgroundColor = color;
+            colorInput.value = "";
+        })
+       
+    </script>
+</body>
+</html>
