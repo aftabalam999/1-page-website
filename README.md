@@ -43,15 +43,9 @@ Here are the amazing single-page websites included in this repository:
   - Unique hero section
   - Fully responsive
   - Scroll animations
-### 3. [Portfolio Website]
-- **Description**: A personal portfolio website with a hero section, about, skills, projects, and contact section. Designed with creativity and simplicity.
-- **Technologies Used**: HTML5, CSS3 (Animations), JavaScript
-- **Features**:
-  - Unique hero section
-  - Fully responsive
-  - Scroll animations
  
-  - 
+---
+
 ### 4. [🕒 Digital Clock Web App]
 - **Description**: A simple and responsive **digital clock**. The clock updates in real-time and features a clean, centered layout.
 - **Technologies Used**: HTML5, CSS3, JavaScript
@@ -62,6 +56,14 @@ Here are the amazing single-page websites included in this repository:
 
 ---
 
+### 5. [🎨 Background Color Changer Web App]
+- A simple and interactive web application that lets users change the background color of the page by entering a color name or hex code or rgb (e.g., `blue`, `(255, 0, 0)`, `#00FFFF`, etc.).
+
+- **Technologies Used**: HTML5, CSS3, JavaScript
+- **Features**:
+  - Input field for entering color names or hex codes or rgb 
+  - Instantly changes the background color when submitted
+  - Responsive layout with styled button and input
 ## 🚀 How to Run Any Project
 
 1. Clone the repo:
