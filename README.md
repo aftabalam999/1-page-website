@@ -43,6 +43,22 @@ Here are the amazing single-page websites included in this repository:
   - Unique hero section
   - Fully responsive
   - Scroll animations
+### 3. [Portfolio Website]
+- **Description**: A personal portfolio website with a hero section, about, skills, projects, and contact section. Designed with creativity and simplicity.
+- **Technologies Used**: HTML5, CSS3 (Animations), JavaScript
+- **Features**:
+  - Unique hero section
+  - Fully responsive
+  - Scroll animations
+ 
+  - 
+### 4. [🕒 Digital Clock Web App]
+- **Description**: A simple and responsive **digital clock**. The clock updates in real-time and features a clean, centered layout.
+- **Technologies Used**: HTML5, CSS3, JavaScript
+- **Features**:
+  - Real-time digital clock using setInterval
+  - Responsive and centered layout
+  - Styled with a glowing box-shadow and themed colors
 
 ---
 
