@@ -64,17 +64,25 @@ Here are the amazing single-page websites included in this repository:
   - Input field for entering color names or hex codes or rgb 
   - Instantly changes the background color when submitted
   - Responsive layout with styled button and input
+---
+
+### 6. [🎵 Mood-Based Music Player]
+-A visually rich, responsive **mood-based music player** web application designed using **HTML**, **CSS**, **JavaScript**, and **Bootstrap 4**. This music player allows users to explore songs based on moods like Romantic, Sad, Relaxed, and Energetic.
+
+
+- **Technologies Used**: HTML5, CSS3, Bootstrap
+- **Features**:
+  - Mood categories: Romantic, Sad, Relaxed, Energetic
+  - Audio player controls with playlist UI
+  - Profile section with social media icons
+  - Liked songs section for quick access
+  - Responsive layout with Bootstrap grid system
+    
 ## 🚀 How to Run Any Project
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/jasiiin999/1-page-website.git
-   
-  Navigate to a specific project folder: 
-  
-  ```bash
-  cd 1-page-website/projects/adhar-card
-  ```
+   git clone https://github.com/aftabalam999/1-page-website.git
 
 📄 License <br>
 This project is licensed under the MIT License – see the LICENSE file for details.
