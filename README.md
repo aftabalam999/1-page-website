@@ -95,22 +95,5 @@ GitHub: @aftabalam999 <br>
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page or submit a PR.
 
-📁 Folder Structure Example
-```
-1-page-website/
-|   ├── adhar-card/
-│   │   ├── index.html
-│   │   ├── css/
-│   │   └── js/
-│   ├── headphone/
-│   │   ├── index.html
-│   │   ├── css/
-│   │   └── js/
-│   └── portfolio/
-│       ├── index.html
-│       ├── css/
-│       └── js/
-├── README.md
-└── LICENSE
-```
+
 Happy coding! 😊🚀
