@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mood-Based Music Player</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container-fluid ml-1">
+      <div class="row">
+        <!-- Left Playlist Mood -->
+        <div class="col-md-3 cat-playlist">
+          <div class="row playlist text-center border">
+            <div class="col-md-12"><h1 class="p-btn">Romantic</h1></div>
+          </div>
+          <div class="row playlist text-center border">
+            <div class="col-md-12"><h1 class="p-btn">Sad</h1></div>
+          </div>
+          <div class="row playlist text-center border">
+            <div class="col-md-12"><h1 class="p-btn">Relaxed</h1></div>
+          </div>
+          <div class="row playlist text-center border">
+            <div class="col-md-12"><h1 class="p-btn">Energetic</h1></div>
+          </div>
+        </div>
+
+        <!-- Start Right Playlist -->
+        <!-- playlist -->
+        <div class="col-md-9 pt-2 song-playlist">
+          <div class="row ban-pro">
+            <!-- Banner -->
+            <div class="col-md-8 banner">
+              <img src="images/banner.png" alt="bg" class="img-fluid" />
+            </div>
+            <!-- Profile -->
+            <div class="col-md-4 profile-container">
+              <div class="row profile">
+                <div class="col-md-4 profile-img">
+                  <img
+                    src="images/profile2.png"
+                    alt="profile"
+                    class="img-fluid"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="col-md-12">
+                    <div class="profile-name">
+                      <h2>Jasin Khan</h2>
+                      <p class="mb-2">
+                        <i class="fas fa-heart like"></i> <span> 100 </span>
+                        Liked
+                      </p>
+                    </div>
+                  </div>
+                  <!-- Social Account -->
+                  <div class="row">
+                    <div class="col-md-12 social-icon-container">
+                      <i class="fa-brands fa-instagram social-icon"></i>
+                      <i class="fa-brands fa-linkedin social-icon"></i>
+                      <i class="fa-brands fa-facebook social-icon"></i>
+                      <i class="fa-brands fa-twitter social-icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Music Player -->
+          <div class="row border ml-2 mt-4">
+            <div class="col-md-6 border music-list">
+              <div class="row local-music">
+                <div class="col-md-8">
+                  <h2 class="text-center">Local Music</h2>
+                </div>
+                <div class="col-md-4 text-center add-btn">
+                  <button class="btn">
+                    Add
+                    <i class="fa-solid fa-file-circle-plus"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <ul class="list-group">
+                    <li class="list-group-item">Ishq</li>
+                    <div class="audio">
+                      <audio src="music/1.mp3" controls></audio>
+                    </div>
+                    <li class="list-group-item">Pushpa 2</li>
+                    <div class="audio">
+                      <audio src="music/2.mp3" controls></audio>
+                    </div>
+                    <li class="list-group-item">Halki si barsat</li>
+                    <div class="audio">
+                      <audio src="music/3.mp3" controls></audio>
+                    </div>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- Liked Song -->
+            <div class="col-md-6 border liked-song">
+              <div class="row">
+                <div class="col-md-12">
+                  <h2 class="text-center liked-text">Liked Songs</h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <ul class="list-group">
+                      <li class="list-group-item">Ishq</li>
+                      <div class="audio">
+                        <audio src="music/1.mp3" controls></audio>
+                      </div>
+                      <li class="list-group-item">Pushpa 2</li>
+                      <div class="audio">
+                        <audio src="music/2.mp3" controls></audio>
+                      </div>
+                      <li class="list-group-item">Halki si barsat</li>
+                      <div class="audio">
+                        <audio src="music/3.mp3" controls></audio>
+                      </div>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Row -->
+    </div>
+    <!-- End Container -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

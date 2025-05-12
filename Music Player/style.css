@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+.cat-playlist{
+    background-color: #FFFF;
+    box-shadow: 0px 5px 8px #323232;
+    height: 100vh;
+    border-bottom-left-radius: 20px;
+
+}
+.song-playlist{
+    background-color: #fff;
+    height: 100vh;
+    border-bottom-right-radius: 20px;
+}
+.cat-playlist{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.playlist{
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    background: #ecc0c0;
+    box-shadow: 0px 5px 8px #6f99c6;
+    border-radius: 10px;
+}
+.playlist h1{
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.banner img{
+    border-radius: 20px; box-shadow: 0px 5px 8px #6f99c6;
+    border-radius: 10px;
+}
+
+/* Profie */
+.profile{
+    background-color: #FFFF;
+    box-shadow: 0px 5px 8px #ccc;
+    height: 160px;
+    border-radius: 20px;
+}
+.profile-img img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin-top: 20px;
+}
+.profile-name h2{
+    font-size: 26px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.profile-name p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.profile-name p .like{
+    font-size: 20px;
+    color: #FF0000;
+}
+.social-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 25px;
+    color: #155bbe;
+}
+
+/* Music List */
+.music-list{
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 8px #ccc;
+}
+.local-music div h2{
+    font-family: "Maven Pro", sans-serif;
+    font-weight: 600;
+}
+.add-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-btn button{
+    background-color: #155bbe;
+    color: #fff;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Liked Song */
+.liked-song{
+    background-color: #f7f7f7;
+    box-shadow: 0px 5px 8px #ccc;
+}
+.liked-text{
+    font-family: "maven pro", sans-serif;
+    font-weight: 600;
+    color: #212529;
+}
+
+
+
+
+
+
+
+
+
+
+/* control width */
+.container-fluid {
+    max-width: 1200px; /* Adjust the max-width as needed */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .song-playlist .right-tag {
+    max-width: 100%; /* Ensure the image does not exceed the container width */
+  }
+  
+  .profile-img img {
+    max-width: 100%; /* Ensure the profile image does not exceed its container */
+  }
+
+  /* Responsive */
+  @media only screen and (max-width: 768px){
+    .profile{
+        height: auto;
+    }
+    
+}
